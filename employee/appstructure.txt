@@ -1,0 +1,27 @@
+structure of project
+=====================
+
+>Employee_project {project name}
+|
+>-->employee {app name }
+|  |
+|  >-->migrations(include files related to migrations)
+|  |
+|  >-->templates
+|  |  |
+|  |  >--->employee 
+|  |  |   |---base.html
+|  |  |   |---employee_form.html_
+|  |  |   |---employee_list.html
+|  |     
+|  |---models.py   
+|  |---forms.py
+|  |---urls.py
+|  |---views.py
+|
+|
+>-->Employee_project {project folder}
+|  |
+|  |
+|  |---settings.py
+|  |---urls.py
